@@ -9,33 +9,9 @@ void printTreeResults(std::vector<PNTree>& trees);
 
 int main() {
 
-	/*
-	PNTree a;
-	std::vector<char> b;
-	b.push_back('*');
-	b.push_back(' ');
-	b.push_back('-');
-	b.push_back(' ');
-	b.push_back('5');
-	b.push_back('1');
-	b.push_back(' ');
-	b.push_back('2');
-	b.push_back('4');
-	b.push_back(' ');
-	b.push_back('a');
-	b.push_back('b');
-	b.push_back('C');
-	a.pushTree(b);
-	std::vector<char> c;
-	a.reversePN(c);
-	c.push_back('\0');
-	std::cout << c.data() << std::endl;
-	c.clear();
-	a.intoNormalExpression(c);
-	c.push_back('\0');
-	std::cout << c.data();
-	std::cout << std::endl << a.PNValue() << std::endl;
-	*/
+	/// START THE PROGRAM with test.txt 
+	/// file changes to input can be made in the file 
+	/// which is located in the folder: homework_sdp_3
 
 	std::vector<PNTree> trees;
 	char path[128];
